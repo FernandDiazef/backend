@@ -9,7 +9,7 @@ const validator = require("../middlewares/validaterHandler.middleware");
 router.get('/', authMiddleware(["Administrador"]), errorAsyncHandler(getAllUsers));
 router.get('/:id/single', authMiddleware(["Administrador"]), errorAsyncHandler(getOneUser));
 router.post('/create', validator("userSchema"), authMiddleware(["Administrador"]), errorAsyncHandler(postCreateUser));
-router.put('/:id/edit', validator("userUpdateSchema"), authMiddleware(["Administrador"]), errorAsyncHandler(putEditUser));
+router.put('/:id/update', validator("userUpdateSchema"), authMiddleware(["Administrador"]), errorAsyncHandler(putEditUser));
 router.delete('/:id/delete', authMiddleware(["Administrador"]), errorAsyncHandler(deleteUser));
 
 module.exports = router;
