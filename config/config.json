@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "secret",
-    "database": "Shop",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": ""
   },
   "test": {
-    "username": "root",
-    "password": "secret",
-    "database": "Shop",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": ""
   },
   "production": {
-    "username": "root",
-    "password": "secret",
-    "database": "Shop",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": ""
   }
 }
